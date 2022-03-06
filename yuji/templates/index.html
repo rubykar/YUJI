@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+{% load  static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="{%static "css/index.css"%}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Nova+Oval&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nova+Oval&display=swap"
+      rel="stylesheet"
+    />
+    <title>YUJI</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Register</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li class="left-side">
+          <img
+            src="{%static 'imgs/YUJI-icon-transparent-light.png' %}"
+            style="width: 80px; height: 60px"
+          />
+        </li>
+        <li class="left-side"><a href="#">Yuu</a></li>
+        <li class="left-side"><a href="#">Community</a></li>
+        <li class="left-side"><a href="#">Volunteer</a></li>
+        <li class="left-side"><a href="#">Chats</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <img
+        src="{%static 'imgs/background-1.png' %}"
+        style="
+          position: relative;
+          top: 100px;
+          width: 100%;
+          height: 634px;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          opacity: 0.05;
+        "
+      />
+      <h1
+        style="
+          text-align: center;
+          position: absolute;
+          right: 33%;
+          top: 15%;
+          font-family: 'Hubballi', cursive;
+          font-weight: 400;
+        "
+      >
+        Need to take better care of yourself,<br />
+        but don't know how ?
+        <h3
+          style="
+            top: 28%;
+            position: absolute;
+            left: 43%;
+            font-family: 'Montserrat', sans-serif;
+          "
+        >
+          We are doing this together
+        </h3>
+      </h1>
+
+      <img
+        src="{%static 'imgs/YUJI-icon-light-tbg copy.png' %}"
+        style="position: absolute; left: 35%; top: 30%; opacity: 0.5"
+      />
+      <p style="position: absolute; top: 83%; left: 44%; font-size: large;font-family: 'Hubballi', cursive;
+      font-weight: 800;">
+        WELLBEING &amp; CONNECTION
+        <br /><br />
+       <p style="position: absolute; top: 88%; left: 35%; font-size: large;text-align: center;font-family: 'Hubballi', cursive;
+       font-weight: 200;"> Yuji provides you with effective wellness tools & a kindered community</p> 
+      </p>
+      <h2 style="top: 50%; position: absolute; left: 3%">
+        It is hard to stay <br />
+        committed to your goals <br />
+        with the lack of emotional support
+        <br />
+        <br />
+        Find friends to finish tasks with
+      </h2>
+      <button class="btn bg-transparent" style="position: absolute">
+        Communities
+      </button>
+      <h2 style="top: 50%; position: absolute; right: 40px">
+        Someone is <br />
+        &nbsp &nbsp &nbsp always<br />
+        available to listen
+      </h2>
+      <button class="chat-btn bg-transparent" style="position: absolute">
+        Connect with listeners
+      </button>
+    </div>
+  </body>
+</html>
